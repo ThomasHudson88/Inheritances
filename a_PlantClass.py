@@ -8,6 +8,8 @@ class Plant:
         return self.__color
 
 
+#Can't creat a Subclass without the Super first
+#First thing is calling the supercalss
 class Flower(Plant):
     def __init__(self,color, petals):
         Plant.__init__(self,color)
